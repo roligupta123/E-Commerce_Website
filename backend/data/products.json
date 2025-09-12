@@ -1,0 +1,1406 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Bluetooth Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Amit","comment": "Excellent sound quality and comfortable fit.","date": "2025-09-10"},
+      {"user": "Priya","comment": "Great value for money. Highly recommend!","date": "2025-09-11"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Smart Fitness Tracker",
+    "price": 1999,
+    "category": "Wearables",
+    "description": "Track your steps, heart rate, and sleep patterns with this sleek fitness tracker.",
+    "rating": 4.2,
+    "comments": [
+      {"user": "Ravi","comment": "Accurate tracking and easy to use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Stainless Steel Water Bottle",
+    "price": 799,
+    "category": "Accessories",
+    "description": "Durable 1L water bottle with thermal insulation to keep drinks cold or hot.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Keeps my water cold all day.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Gaming Mouse",
+    "price": 1499,
+    "category": "Electronics",
+    "description": "Ergonomic gaming mouse with RGB lighting and programmable buttons.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Karan","comment": "Great for gaming, very responsive.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/159144/computer-mouse-159144.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Men's Casual Sneakers",
+    "price": 2499,
+    "category": "Footwear",
+    "description": "Comfortable casual sneakers suitable for daily wear.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Rhea","comment": "Super comfy and stylish.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "Leather Wallet",
+    "price": 899,
+    "category": "Accessories",
+    "description": "Premium leather wallet with multiple card slots.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rohan","comment": "Looks premium and durable.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 250,
+    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Smart LED Desk Lamp",
+    "price": 1299,
+    "category": "Home & Living",
+    "description": "Adjustable LED desk lamp with touch control and multiple brightness levels.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Anita","comment": "Bright and energy efficient.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Cotton Casual T-Shirt",
+    "price": 499,
+    "category": "Clothing",
+    "description": "Soft cotton t-shirt perfect for everyday wear.",
+    "rating": 4.2,
+    "comments": [
+      {"user": "Sana","comment": "Fits perfectly and very soft.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Gold Plated Ring",
+    "price": 1599,
+    "category": "Jewelry",
+    "description": "Elegant gold plated ring suitable for casual or party wear.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Shreya","comment": "Looks amazing and shiny!","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/209289/pexels-photo-209289.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "4K Ultra HD Smart TV",
+    "price": 49999,
+    "category": "Electronics",
+    "description": "50-inch 4K Ultra HD Smart TV with HDR and streaming apps.",
+    "rating": 4.8,
+    "comments": [
+      {"user": "Vikram","comment": "Stunning picture quality!","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 50,
+    "image": "https://images.pexels.com/photos/276024/pexels-photo-276024.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "Wireless Earbuds",
+    "price": 1999,
+    "category": "Electronics",
+    "description": "Compact and high-quality wireless earbuds with charging case.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Amit","comment": "Good sound and fits well.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "Digital Alarm Clock",
+    "price": 799,
+    "category": "Home & Living",
+    "description": "Easy-to-read digital alarm clock with multiple alarm settings.",
+    "rating": 4.0,
+    "comments": [
+      {"user": "Priya","comment": "Very convenient and clear display.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/280255/pexels-photo-280255.jpeg"
+  },
+  {
+    "id": 13,
+    "title": "Men's Formal Shirt",
+    "price": 999,
+    "category": "Clothing",
+    "description": "Elegant formal shirt suitable for office and meetings.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Karan","comment": "Nice fabric and fits perfectly.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Stainless Steel Cookware Set",
+    "price": 3499,
+    "category": "Home & Living",
+    "description": "Durable stainless steel cookware set for everyday cooking.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Anita","comment": "Excellent quality, easy to clean.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 80,
+    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+  },
+  {
+    "id": 15,
+    "title": "Kids’ Story Book",
+    "price": 299,
+    "category": "Books",
+    "description": "Colorful and fun storybook for children aged 5–10.",
+    "rating": 4.8,
+    "comments": [
+      {"user": "Meera","comment": "My kids loved it!","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+  },
+  {
+    "id": 16,
+    "title": "Office Backpack",
+    "price": 1499,
+    "category": "Accessories",
+    "description": "Spacious backpack with laptop compartment and water-resistant material.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Comfortable and good quality.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "Portable Bluetooth Speaker",
+    "price": 1299,
+    "category": "Electronics",
+    "description": "Compact Bluetooth speaker with clear sound and long battery life.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Vikram","comment": "Perfect for outdoor use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+  },
+  {
+    "id": 18,
+    "title": "Yoga Mat",
+    "price": 699,
+    "category": "Fitness",
+    "description": "Non-slip yoga mat with cushioned support for all exercises.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Comfortable and durable.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 19,
+    "title": "Women’s Sunglasses",
+    "price": 899,
+    "category": "Accessories",
+    "description": "Trendy sunglasses with UV protection and stylish frames.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Sana","comment": "Looks great and protects my eyes.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg"
+  },
+  {
+    "id": 20,
+    "title": "Electric Kettle",
+    "price": 1299,
+    "category": "Home & Living",
+    "description": "1.5L electric kettle with auto shut-off and fast boiling.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Anita","comment": "Boils quickly and easy to use.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 21,
+    "title": "Men's Running Shoes",
+    "price": 2999,
+    "category": "Footwear",
+    "description": "Lightweight running shoes with breathable mesh and cushioned sole.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Karan","comment": "Very comfortable for long runs.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+  },
+  {
+    "id": 22,
+    "title": "Kids’ School Backpack",
+    "price": 899,
+    "category": "Accessories",
+    "description": "Durable backpack with multiple compartments and adjustable straps.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Meera","comment": "Perfect size for my child.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+  },
+  {
+    "id": 23,
+    "title": "Stainless Steel Cutlery Set",
+    "price": 1299,
+    "category": "Home & Living",
+    "description": "Durable stainless steel cutlery set with knives, forks, and spoons.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Anita","comment": "Good quality and stylish design.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+  },
+  {
+    "id": 24,
+    "title": "Smartphone Tripod",
+    "price": 699,
+    "category": "Electronics",
+    "description": "Flexible tripod for smartphones, ideal for photography and video.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Ravi","comment": "Very handy and easy to adjust.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/21014/pexels-photo.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Women’s Casual Sandals",
+    "price": 1499,
+    "category": "Footwear",
+    "description": "Comfortable sandals with cushioned sole for everyday wear.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Very comfy and stylish.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg"
+  },
+  {
+    "id": 26,
+    "title": "Bluetooth Car Speaker",
+    "price": 1799,
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker for car with strong bass and hands-free calling.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Vikram","comment": "Sound is clear and loud.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+  },
+  {
+    "id": 27,
+    "title": "Women’s Handbag",
+    "price": 1999,
+    "category": "Accessories",
+    "description": "Stylish handbag made of faux leather, suitable for daily use.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sana","comment": "Looks elegant and spacious.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+  },
+  {
+    "id": 28,
+    "title": "Ceramic Coffee Mug",
+    "price": 499,
+    "category": "Home & Living",
+    "description": "Durable ceramic mug for coffee or tea with 350ml capacity.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Anita","comment": "Nice design and good quality.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+  },
+  {
+    "id": 29,
+    "title": "Digital Kitchen Scale",
+    "price": 999,
+    "category": "Home & Living",
+    "description": "Accurate digital kitchen scale for cooking and baking.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Very precise and easy to use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 30,
+    "title": "Yoga Block Set",
+    "price": 799,
+    "category": "Fitness",
+    "description": "Set of two yoga blocks for enhanced stability during exercises.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Helps a lot during yoga poses.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 31,
+    "title": "Wireless Charger",
+    "price": 1499,
+    "category": "Electronics",
+    "description": "Fast wireless charger compatible with most smartphones.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Vikram","comment": "Charges quickly and convenient.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+  },
+  {
+    "id": 32,
+    "title": "Men's Casual T-Shirt",
+    "price": 699,
+    "category": "Clothing",
+    "description": "Comfortable cotton t-shirt suitable for everyday wear.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Rohan","comment": "Soft and fits perfectly.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+  },
+  {
+    "id": 33,
+    "title": "Stainless Steel Water Bottle",
+    "price": 899,
+    "category": "Accessories",
+    "description": "Insulated stainless steel bottle to keep drinks hot or cold.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Meera","comment": "Keeps water cold for hours.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+  },
+  {
+    "id": 34,
+    "title": "Electric Toothbrush",
+    "price": 1999,
+    "category": "Personal Care",
+    "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sana","comment": "Teeth feel cleaner and fresher.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+  },
+  {
+    "id": 35,
+    "title": "Gaming Keyboard",
+    "price": 2499,
+    "category": "Electronics",
+    "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Karan","comment": "Keys are very responsive and feel great.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/159144/pexels-photo-159144.jpeg"
+  },
+  {
+    "id": 36,
+    "title": "Kids’ Puzzle Game",
+    "price": 499,
+    "category": "Toys",
+    "description": "Fun and educational puzzle game for children aged 6–12.",
+    "rating": 4.8,
+    "comments": [
+      {"user": "Meera","comment": "Kids love it! Keeps them engaged.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+  },
+  {
+    "id": 37,
+    "title": "Women’s Running Shoes",
+    "price": 2999,
+    "category": "Footwear",
+    "description": "Lightweight and breathable running shoes for women.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Perfect fit and very comfortable.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/2529150/pexels-photo-2529150.jpeg"
+  },
+  {
+    "id": 38,
+    "title": "Travel Luggage Bag",
+    "price": 3999,
+    "category": "Accessories",
+    "description": "Durable and lightweight luggage bag with multiple compartments.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Rohan","comment": "Easy to carry and very spacious.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+  },
+  {
+    "id": 39,
+    "title": "Coffee Maker Machine",
+    "price": 4999,
+    "category": "Home & Living",
+    "description": "Automatic coffee maker with programmable settings for espresso and cappuccino.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Anita","comment": "Makes excellent coffee!","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 50,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 40,
+    "title": "Wireless Mouse",
+    "price": 999,
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse with adjustable DPI and silent clicks.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Vikram","comment": "Smooth and responsive.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 41,
+    "title": "Men's Leather Belt",
+    "price": 799,
+    "category": "Accessories",
+    "description": "Premium leather belt with durable buckle, perfect for formal and casual wear.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rohan","comment": "Looks premium and lasts long.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+  },
+  {
+    "id": 42,
+    "title": "Wireless Home Security Camera",
+    "price": 3999,
+    "category": "Electronics",
+    "description": "Smart wireless security camera with motion detection and night vision.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Vikram","comment": "Easy to install and clear video.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 80,
+    "image": "https://images.pexels.com/photos/276024/pexels-photo-276024.jpeg"
+  },
+  {
+    "id": 43,
+    "title": "Women's Casual Top",
+    "price": 699,
+    "category": "Clothing",
+    "description": "Comfortable cotton top with trendy design for everyday wear.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Sana","comment": "Soft and stylish, fits perfectly.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 250,
+    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+  },
+  {
+    "id": 44,
+    "title": "Stainless Steel Lunch Box",
+    "price": 599,
+    "category": "Home & Living",
+    "description": "Leak-proof stainless steel lunch box with multiple compartments.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Anita","comment": "Keeps food fresh and easy to carry.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+  },
+  {
+    "id": 45,
+    "title": "Portable Power Bank",
+    "price": 1499,
+    "category": "Electronics",
+    "description": "10000mAh portable power bank with fast charging capability.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Ravi","comment": "Charges my devices quickly, very handy.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+  },
+  {
+    "id": 46,
+    "title": "Men's Sports Watch",
+    "price": 2999,
+    "category": "Accessories",
+    "description": "Water-resistant sports watch with chronograph and LED display.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Karan","comment": "Looks sporty and works perfectly.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg"
+  },
+  {
+    "id": 47,
+    "title": "Wireless Earphones",
+    "price": 1999,
+    "category": "Electronics",
+    "description": "Compact and high-quality earphones with long battery life.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Amit","comment": "Good sound and very comfortable.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 48,
+    "title": "Ceramic Flower Vase",
+    "price": 899,
+    "category": "Home & Living",
+    "description": "Elegant ceramic vase for flowers, perfect for home decoration.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Anita","comment": "Beautiful design and sturdy.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+  },
+  {
+    "id": 49,
+    "title": "Yoga Resistance Bands",
+    "price": 699,
+    "category": "Fitness",
+    "description": "Set of three resistance bands for strength training and flexibility.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Sneha","comment": "Great for workouts at home.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 50,
+    "title": "Kids’ Learning Tablet",
+    "price": 3999,
+    "category": "Electronics",
+    "description": "Interactive learning tablet for children with educational apps.",
+    "rating": 4.8,
+    "comments": [
+      {"user": "Meera","comment": "Keeps kids engaged and learning.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+  },
+  {
+    "id": 51,
+    "title": "Women’s Handbag",
+    "price": 2499,
+    "category": "Accessories",
+    "description": "Elegant faux leather handbag with multiple compartments.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Rhea","comment": "Stylish and spacious.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+  },
+  {
+    "id": 52,
+    "title": "Digital Alarm Clock",
+    "price": 799,
+    "category": "Home & Living",
+    "description": "Compact digital alarm clock with clear display and multiple alarm settings.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Priya","comment": "Very useful and easy to set.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/280255/pexels-photo-280255.jpeg"
+  },
+  {
+    "id": 53,
+    "title": "Electric Kettle",
+    "price": 1299,
+    "category": "Home & Living",
+    "description": "1.5L electric kettle with auto shut-off and quick boil feature.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Anita","comment": "Boils water fast, easy to use.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 54,
+    "title": "Wireless Charging Pad",
+    "price": 1499,
+    "category": "Electronics",
+    "description": "Fast wireless charging pad compatible with most smartphones.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Vikram","comment": "Charges my phone quickly and safely.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+  },
+  {
+    "id": 55,
+    "title": "Men's Casual Shirt",
+    "price": 999,
+    "category": "Clothing",
+    "description": "Comfortable cotton casual shirt suitable for daily wear.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Karan","comment": "Soft fabric and perfect fit.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 250,
+    "image": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+  },
+  {
+    "id": 56,
+    "title": "Gaming Headset",
+    "price": 1999,
+    "category": "Electronics",
+    "description": "Over-ear gaming headset with clear mic and surround sound.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Ravi","comment": "Sound is immersive and mic works well.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+  },
+  {
+    "id": 57,
+    "title": "Yoga Mat",
+    "price": 699,
+    "category": "Fitness",
+    "description": "Non-slip yoga mat with cushioned support.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Very comfortable and durable.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 58,
+    "title": "Kids’ Story Book",
+    "price": 299,
+    "category": "Books",
+    "description": "Colorful storybook for children aged 5–10.",
+    "rating": 4.8,
+    "comments": [
+      {"user": "Meera","comment": "My kids loved it!","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+  },
+  {
+    "id": 59,
+    "title": "Women’s Casual Sandals",
+    "price": 1499,
+    "category": "Footwear",
+    "description": "Comfortable sandals with cushioned sole for daily wear.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Very comfy and stylish.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg"
+  },
+  {
+    "id": 60,
+    "title": "Stainless Steel Water Bottle",
+    "price": 899,
+    "category": "Accessories",
+    "description": "Insulated stainless steel bottle for hot and cold drinks.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Meera","comment": "Keeps water cold for hours.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+  },
+  {
+    "id": 61,
+    "title": "Electric Hair Trimmer",
+    "price": 1999,
+    "category": "Personal Care",
+    "description": "Rechargeable hair trimmer with multiple length settings.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Ravi","comment": "Cuts hair smoothly, very convenient.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+  },
+  {
+    "id": 62,
+    "title": "Gaming Chair",
+    "price": 7999,
+    "category": "Furniture",
+    "description": "Ergonomic gaming chair with adjustable height and lumbar support.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Karan","comment": "Very comfortable for long gaming sessions.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 80,
+    "image": "https://images.pexels.com/photos/139488/pexels-photo-139488.jpeg"
+  },
+  {
+    "id": 63,
+    "title": "Portable Blender",
+    "price": 1499,
+    "category": "Home & Living",
+    "description": "Compact portable blender for smoothies and shakes.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Anita","comment": "Blends fruits quickly and easily.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 64,
+    "title": "Men’s Formal Shoes",
+    "price": 3499,
+    "category": "Footwear",
+    "description": "Elegant leather formal shoes perfect for office or events.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Rohan","comment": "Stylish and very comfortable.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+  },
+  {
+    "id": 65,
+    "title": "Smartwatch",
+    "price": 4999,
+    "category": "Wearables",
+    "description": "Feature-rich smartwatch with fitness tracking and notifications.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sana","comment": "Very useful and stylish.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg"
+  },
+  {
+    "id": 66,
+    "title": "Women’s Casual T-Shirt",
+    "price": 699,
+    "category": "Clothing",
+    "description": "Soft and comfortable t-shirt for everyday wear.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Rhea","comment": "Soft fabric, fits nicely.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 250,
+    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+  },
+  {
+    "id": 67,
+    "title": "Digital Kitchen Scale",
+    "price": 999,
+    "category": "Home & Living",
+    "description": "Accurate digital scale for cooking and baking.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Priya","comment": "Very precise and easy to use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 68,
+    "title": "Wireless Mouse",
+    "price": 999,
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse with adjustable DPI and silent clicks.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Vikram","comment": "Smooth and responsive.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 69,
+    "title": "Bluetooth Car Speaker",
+    "price": 1799,
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker for car with strong bass.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Vikram","comment": "Sound is clear and loud.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+  },
+  {
+    "id": 70,
+    "title": "Yoga Resistance Bands",
+    "price": 699,
+    "category": "Fitness",
+    "description": "Set of three resistance bands for strength training.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Great for home workouts.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 71,
+    "title": "Stainless Steel Cookware Set",
+    "price": 3499,
+    "category": "Home & Living",
+    "description": "Durable stainless steel cookware set for daily cooking.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Anita","comment": "Excellent quality, easy to clean.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 80,
+    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+  },
+  {
+    "id": 72,
+    "title": "Kids’ Puzzle Game",
+    "price": 499,
+    "category": "Toys",
+    "description": "Fun puzzle game for children aged 6–12.",
+    "rating": 4.8,
+    "comments": [
+      {"user": "Meera","comment": "Kids love it!","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+  },
+  {
+    "id": 73,
+    "title": "Travel Luggage Bag",
+    "price": 3999,
+    "category": "Accessories",
+    "description": "Durable and spacious luggage bag for travel.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Rohan","comment": "Easy to carry and spacious.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+  },
+  {
+    "id": 74,
+    "title": "Coffee Maker Machine",
+    "price": 4999,
+    "category": "Home & Living",
+    "description": "Automatic coffee maker with programmable settings.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Anita","comment": "Makes excellent coffee!","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 50,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 75,
+    "title": "Electric Toothbrush",
+    "price": 1999,
+    "category": "Personal Care",
+    "description": "Rechargeable toothbrush with multiple cleaning modes.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sana","comment": "Teeth feel cleaner.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+  },
+  {
+    "id": 76,
+    "title": "Wireless Bluetooth Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "description": "High-quality headphones with noise cancellation and 20-hour battery.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Amit","comment": "Excellent sound quality and comfy.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 77,
+    "title": "Men's Hoodie",
+    "price": 1499,
+    "category": "Clothing",
+    "description": "Warm and comfortable hoodie suitable for casual wear.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Karan","comment": "Nice fabric and fits well.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+  },
+  {
+    "id": 78,
+    "title": "Women’s Sunglasses",
+    "price": 899,
+    "category": "Accessories",
+    "description": "Stylish sunglasses with UV protection.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Sana","comment": "Protects eyes and looks great.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg"
+  },
+  {
+    "id": 79,
+    "title": "Ceramic Coffee Mug",
+    "price": 499,
+    "category": "Home & Living",
+    "description": "Durable 350ml ceramic mug for coffee or tea.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Anita","comment": "Nice design and quality.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+  },
+  {
+    "id": 80,
+    "title": "Bluetooth Speaker",
+    "price": 1299,
+    "category": "Electronics",
+    "description": "Portable speaker with clear sound and long battery life.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Vikram","comment": "Perfect for outdoor use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+  },
+  {
+    "id": 81,
+    "title": "Men's Running Shoes",
+    "price": 2999,
+    "category": "Footwear",
+    "description": "Lightweight running shoes with breathable mesh and cushioned sole.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Karan","comment": "Very comfortable for long runs.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+  },
+  {
+    "id": 82,
+    "title": "Women’s Casual Sandals",
+    "price": 1499,
+    "category": "Footwear",
+    "description": "Comfortable sandals with cushioned sole for daily wear.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Very comfy and stylish.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg"
+  },
+  {
+    "id": 83,
+    "title": "Wireless Mouse",
+    "price": 999,
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse with adjustable DPI and silent clicks.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Vikram","comment": "Smooth and responsive.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 84,
+    "title": "Digital Alarm Clock",
+    "price": 799,
+    "category": "Home & Living",
+    "description": "Compact digital alarm clock with clear display and multiple alarm settings.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Priya","comment": "Very useful and easy to set.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/280255/pexels-photo-280255.jpeg"
+  },
+  {
+    "id": 85,
+    "title": "Portable Power Bank",
+    "price": 1499,
+    "category": "Electronics",
+    "description": "10000mAh portable power bank with fast charging capability.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Ravi","comment": "Charges devices quickly, very handy.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 200,
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+  },
+  {
+    "id": 86,
+    "title": "Gaming Keyboard",
+    "price": 2499,
+    "category": "Electronics",
+    "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Karan","comment": "Keys are very responsive and feel great.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/159144/pexels-photo-159144.jpeg"
+  },
+  {
+    "id": 87,
+    "title": "Yoga Mat",
+    "price": 699,
+    "category": "Fitness",
+    "description": "Non-slip yoga mat with cushioned support.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Very comfortable and durable.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 88,
+    "title": "Women’s Handbag",
+    "price": 1999,
+    "category": "Accessories",
+    "description": "Stylish handbag made of faux leather, suitable for daily use.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sana","comment": "Looks elegant and spacious.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+  },
+  {
+    "id": 89,
+    "title": "Ceramic Coffee Mug",
+    "price": 499,
+    "category": "Home & Living",
+    "description": "Durable ceramic mug for coffee or tea with 350ml capacity.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Anita","comment": "Nice design and good quality.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+  },
+  {
+    "id": 90,
+    "title": "Electric Kettle",
+    "price": 1299,
+    "category": "Home & Living",
+    "description": "1.5L electric kettle with auto shut-off and quick boil feature.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Anita","comment": "Boils water fast, easy to use.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 91,
+    "title": "Wireless Earphones",
+    "price": 1999,
+    "category": "Electronics",
+    "description": "Compact and high-quality earphones with long battery life.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Amit","comment": "Good sound and very comfortable.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+  },
+  {
+    "id": 92,
+    "title": "Men's Casual T-Shirt",
+    "price": 699,
+    "category": "Clothing",
+    "description": "Comfortable cotton t-shirt suitable for everyday wear.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Rohan","comment": "Soft and fits perfectly.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 300,
+    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+  },
+  {
+    "id": 93,
+    "title": "Stainless Steel Cutlery Set",
+    "price": 1299,
+    "category": "Home & Living",
+    "description": "Durable stainless steel cutlery set with knives, forks, and spoons.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Anita","comment": "Good quality and stylish design.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+  },
+  {
+    "id": 94,
+    "title": "Smartphone Tripod",
+    "price": 699,
+    "category": "Electronics",
+    "description": "Flexible tripod for smartphones, ideal for photography and video.",
+    "rating": 4.3,
+    "comments": [
+      {"user": "Ravi","comment": "Very handy and easy to adjust.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/21014/pexels-photo.jpg"
+  },
+  {
+    "id": 95,
+    "title": "Yoga Block Set",
+    "price": 799,
+    "category": "Fitness",
+    "description": "Set of two yoga blocks for enhanced stability during exercises.",
+    "rating": 4.7,
+    "comments": [
+      {"user": "Sneha","comment": "Helps a lot during yoga poses.","date": "2025-09-10"}
+    ],
+    "in_stock": true,
+    "quantity": 220,
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+  },
+  {
+    "id": 96,
+    "title": "Digital Kitchen Scale",
+    "price": 999,
+    "category": "Home & Living",
+    "description": "Accurate digital kitchen scale for cooking and baking.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Rhea","comment": "Very precise and easy to use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 100,
+    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+  },
+  {
+    "id": 97,
+    "title": "Travel Luggage Bag",
+    "price": 3999,
+    "category": "Accessories",
+    "description": "Durable and lightweight luggage bag with multiple compartments.",
+    "rating": 4.6,
+    "comments": [
+      {"user": "Rohan","comment": "Spacious and easy to carry.","date": "2025-09-08"}
+    ],
+    "in_stock": true,
+    "quantity": 120,
+    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+  },
+  {
+    "id": 98,
+    "title": "Electric Hair Dryer",
+    "price": 1999,
+    "category": "Personal Care",
+    "description": "Powerful hair dryer with multiple heat and speed settings.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Sana","comment": "Dries hair quickly and safely.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 150,
+    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+  },
+  {
+    "id": 99,
+    "title": "Women’s Casual Top",
+    "price": 699,
+    "category": "Clothing",
+    "description": "Soft cotton top suitable for casual daily wear.",
+    "rating": 4.4,
+    "comments": [
+      {"user": "Rhea","comment": "Comfortable and stylish.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 250,
+    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+  },
+  {
+    "id": 100,
+    "title": "Bluetooth Speaker",
+    "price": 1299,
+    "category": "Electronics",
+    "description": "Portable wireless speaker with rich sound and long battery life.",
+    "rating": 4.5,
+    "comments": [
+      {"user": "Vikram","comment": "Perfect for parties and outdoor use.","date": "2025-09-09"}
+    ],
+    "in_stock": true,
+    "quantity": 180,
+    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+  }
+]
+
+
+
