@@ -12,7 +12,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+    "image": "/images/Wireless-Bluetooth-Headphones.jpg"
   },
   {
     "id": 2,
@@ -26,7 +26,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg"
+    "image": "/images/Smart-Fitness-Tracker.jpg"
   },
   {
     "id": 3,
@@ -40,7 +40,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+    "image": "/images/Stainless-Steel-Water-Bottle.jpg"
   },
   {
     "id": 4,
@@ -54,7 +54,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/159144/computer-mouse-159144.jpeg"
+    "image": "/images/Gaming-Mouse.jpg"
   },
   {
     "id": 5,
@@ -68,7 +68,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    "image": "public/images/Men's-Casual-Sneakers.jpg"
   },
   {
     "id": 6,
@@ -82,7 +82,7 @@
     ],
     "in_stock": true,
     "quantity": 250,
-    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+    "image": "/images/Leather-Wallet.jpg"
   },
   {
     "id": 7,
@@ -96,7 +96,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/1457847/pexels-photo-1457847.jpeg"
+    "image": "/images/Smart-LED-Desk-Lamp.jpg"
   },
   {
     "id": 8,
@@ -110,7 +110,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+    "image": "/images/Cotton-Casual-T-Shirt.jpg"
   },
   {
     "id": 9,
@@ -124,7 +124,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/209289/pexels-photo-209289.jpeg"
+    "image": "/images/Gold-Plated-Ring.jpg"
   },
   {
     "id": 10,
@@ -138,7 +138,7 @@
     ],
     "in_stock": true,
     "quantity": 50,
-    "image": "https://images.pexels.com/photos/276024/pexels-photo-276024.jpeg"
+    "image": "/images/4K-Ultra-HD-Smart-TV.jpg"
   },
   {
     "id": 11,
@@ -152,7 +152,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Earbuds.jpg"
   },
   {
     "id": 12,
@@ -166,7 +166,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/280255/pexels-photo-280255.jpeg"
+    "image": "/images/Digital-Alarm-Clock.jpg"
   },
   {
     "id": 13,
@@ -180,7 +180,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+    "image": "/images/Men's-Formal-Shirt.jpg"
   },
   {
     "id": 14,
@@ -194,11 +194,11 @@
     ],
     "in_stock": true,
     "quantity": 80,
-    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+    "image": "/images/Stainless-Steel-Cookware-Set.jpg"
   },
   {
     "id": 15,
-    "title": "Kids’ Story Book",
+    "title": "Kid's Story Book",
     "price": 299,
     "category": "Books",
     "description": "Colorful and fun storybook for children aged 5–10.",
@@ -208,7 +208,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+    "image": "/images/Kid's-Story-Book.jpg"
   },
   {
     "id": 16,
@@ -222,7 +222,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+    "image": "/images/Office-Backpack.jpg"
   },
   {
     "id": 17,
@@ -236,7 +236,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+    "image": "/images/Portable-Bluetooth-Speaker.jpg"
   },
   {
     "id": 18,
@@ -250,7 +250,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "/images/YogaMat.jpg"
   },
   {
     "id": 19,
@@ -264,7 +264,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg"
+    "image": "/images/Women’s-Sunglasses.jpg"
   },
   {
     "id": 20,
@@ -278,7 +278,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Electric-Kettle.jpg"
   },
   {
     "id": 21,
@@ -292,11 +292,11 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    "image": "/images/Men's-Running-Shoes.jpg"
   },
   {
     "id": 22,
-    "title": "Kids’ School Backpack",
+    "title": "Kid's School Backpack",
     "price": 899,
     "category": "Accessories",
     "description": "Durable backpack with multiple compartments and adjustable straps.",
@@ -306,7 +306,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+    "image": "/images/Kids’-School-Backpack.jpg"
   },
   {
     "id": 23,
@@ -320,7 +320,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+    "image": "/images/StainlessSteelCutlerySet.jpg"
   },
   {
     "id": 24,
@@ -334,7 +334,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/21014/pexels-photo.jpg"
+    "image": "/images/Smartphone-Tripod.jpg"
   },
   {
     "id": 25,
@@ -348,7 +348,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg"
+    "image": "/images/Women’s-Casual-Sandals.jpg"
   },
   {
     "id": 26,
@@ -362,7 +362,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+    "image": "/imagesBluetooth-Car-Speaker.jpg"
   },
   {
     "id": 27,
@@ -376,7 +376,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+    "image": "/images/Women’s-Handbag.jpg"
   },
   {
     "id": 28,
@@ -390,7 +390,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+    "image": "/images/Ceramic-Coffee-Mug.jpg"
   },
   {
     "id": 29,
@@ -404,7 +404,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Digital-Kitchen-Scale.jpg"
   },
   {
     "id": 30,
@@ -418,7 +418,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "images/Yoga-Block-Set.jpg"
   },
   {
     "id": 31,
@@ -432,7 +432,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+    "image": "/images/Wireless-Charger.jpg"
   },
   {
     "id": 32,
@@ -446,7 +446,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+    "image": "/images/Men'sCasualT-Shirt.jpg"
   },
   {
     "id": 33,
@@ -460,7 +460,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+    "image": "/images/StainlessSteelWaterBottle.jpg"
   },
   {
     "id": 34,
@@ -474,7 +474,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+    "image": "/images/Electric-Toothbrush.jpg"
   },
   {
     "id": 35,
@@ -488,11 +488,11 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/159144/pexels-photo-159144.jpeg"
+    "image": "/images/Gaming-Keyboard.jpg"
   },
   {
     "id": 36,
-    "title": "Kids’ Puzzle Game",
+    "title": "Kid's Puzzle Game",
     "price": 499,
     "category": "Toys",
     "description": "Fun and educational puzzle game for children aged 6–12.",
@@ -502,7 +502,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+    "image": "/images/Kid's-Puzzle-Game.jpg"
   },
   {
     "id": 37,
@@ -516,7 +516,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/2529150/pexels-photo-2529150.jpeg"
+    "image": "images/Women’s-Running-Shoes.jpg"
   },
   {
     "id": 38,
@@ -530,7 +530,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+    "image": "/images/Travel-Luggage-Bag.jpg"
   },
   {
     "id": 39,
@@ -544,7 +544,7 @@
     ],
     "in_stock": true,
     "quantity": 50,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Coffee-Maker-Machine.jpg"
   },
   {
     "id": 40,
@@ -558,7 +558,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Mouse.jpg"
   },
   {
     "id": 41,
@@ -572,7 +572,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+    "image": "/images/Men's-Leather-Belt.jpg"
   },
   {
     "id": 42,
@@ -586,7 +586,7 @@
     ],
     "in_stock": true,
     "quantity": 80,
-    "image": "https://images.pexels.com/photos/276024/pexels-photo-276024.jpeg"
+    "image": "/images/Wireless-Home-Security-Camera.jpg"
   },
   {
     "id": 43,
@@ -600,7 +600,7 @@
     ],
     "in_stock": true,
     "quantity": 250,
-    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+    "image": "/images/Women's-Casual-Top.jpg"
   },
   {
     "id": 44,
@@ -614,7 +614,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+    "image": "/images/Stainless-Steel-LunchBox.jpg"
   },
   {
     "id": 45,
@@ -628,7 +628,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+    "image": "/images/Portable-Power-Bank.jpg"
   },
   {
     "id": 46,
@@ -642,7 +642,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg"
+    "image": "/images/Men's-Sports-Watch.jpg"
   },
   {
     "id": 47,
@@ -656,7 +656,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Earphones.jpg"
   },
   {
     "id": 48,
@@ -670,7 +670,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+    "image": "/images/Ceramic-Flower-Vase.jpg"
   },
   {
     "id": 49,
@@ -684,11 +684,11 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "/images/Yoga-Resistance-Bands.jpg"
   },
   {
     "id": 50,
-    "title": "Kids’ Learning Tablet",
+    "title": "Kid's Learning Tablet",
     "price": 3999,
     "category": "Electronics",
     "description": "Interactive learning tablet for children with educational apps.",
@@ -698,7 +698,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+    "image": "/images/Kid's-Learning-Tablet.jpg"
   },
   {
     "id": 51,
@@ -712,7 +712,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+    "image": "/images/Women’sHandbag.jpg"
   },
   {
     "id": 52,
@@ -726,7 +726,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/280255/pexels-photo-280255.jpeg"
+    "image": "/images/DigitalAlarmClock.jpg"
   },
   {
     "id": 53,
@@ -740,7 +740,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Electric-Kettle.jpg"
   },
   {
     "id": 54,
@@ -754,7 +754,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+    "image": "/images/WirelessChargingPad.jpg"
   },
   {
     "id": 55,
@@ -768,7 +768,7 @@
     ],
     "in_stock": true,
     "quantity": 250,
-    "image": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+    "image": "/images/Men'sCasualT-Shirt.jpg"
   },
   {
     "id": 56,
@@ -782,7 +782,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+    "image": "/images/Gaming-Headset.jpg"
   },
   {
     "id": 57,
@@ -796,11 +796,11 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "/images/YogaMat.jpg"
   },
   {
     "id": 58,
-    "title": "Kids’ Story Book",
+    "title": "Kid's Story Book",
     "price": 299,
     "category": "Books",
     "description": "Colorful storybook for children aged 5–10.",
@@ -810,7 +810,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+    "image": "/images/Kid'sStoryBook.jpg"
   },
   {
     "id": 59,
@@ -824,7 +824,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg"
+    "image": "/images/Women’s-Casual-Sandals.jpg"
   },
   {
     "id": 60,
@@ -838,7 +838,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg"
+    "image": "/images/Stainless-Steel-Water-Bottle.jpg"
   },
   {
     "id": 61,
@@ -852,7 +852,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+    "image": "/images/Electric-Hair-Trimmer.jpg"
   },
   {
     "id": 62,
@@ -866,7 +866,7 @@
     ],
     "in_stock": true,
     "quantity": 80,
-    "image": "https://images.pexels.com/photos/139488/pexels-photo-139488.jpeg"
+    "image": "/images/Gaming-Chair.jpg"
   },
   {
     "id": 63,
@@ -880,7 +880,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Portable-Blender.jpg"
   },
   {
     "id": 64,
@@ -894,7 +894,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    "image": "/images/Men’s-Formal-Shoes.jpg"
   },
   {
     "id": 65,
@@ -908,7 +908,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/277394/pexels-photo-277394.jpeg"
+    "image": "/images/Smartwatch.jpg"
   },
   {
     "id": 66,
@@ -922,7 +922,7 @@
     ],
     "in_stock": true,
     "quantity": 250,
-    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+    "image": "/images/Women’s-Casual-T-Shirt.jpg"
   },
   {
     "id": 67,
@@ -936,7 +936,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Digital-Kitchen-Scale.jpg"
   },
   {
     "id": 68,
@@ -950,7 +950,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Mouse.jpg"
   },
   {
     "id": 69,
@@ -964,7 +964,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+    "image": "/imagesBluetooth-Car-Speaker.jpg"
   },
   {
     "id": 70,
@@ -978,7 +978,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "/images/Yoga-Resistance-Bands.jpg"
   },
   {
     "id": 71,
@@ -992,11 +992,11 @@
     ],
     "in_stock": true,
     "quantity": 80,
-    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+    "image": "/images/Stainless-Steel-Cookware-Set.jpg"
   },
   {
     "id": 72,
-    "title": "Kids’ Puzzle Game",
+    "title": "Kid's Puzzle Game",
     "price": 499,
     "category": "Toys",
     "description": "Fun puzzle game for children aged 6–12.",
@@ -1006,7 +1006,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+    "image": "/images/Kid's-Puzzle-Game.jpg"
   },
   {
     "id": 73,
@@ -1020,7 +1020,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+    "image": "/images/Travel-Luggage-Bag.jpg"
   },
   {
     "id": 74,
@@ -1034,7 +1034,7 @@
     ],
     "in_stock": true,
     "quantity": 50,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Coffee-Maker-Machine.jpg"
   },
   {
     "id": 75,
@@ -1048,7 +1048,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+    "image": "/images/Electric-Toothbrush.jpg"
   },
   {
     "id": 76,
@@ -1062,7 +1062,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Bluetooth-Headphones.jpg"
   },
   {
     "id": 77,
@@ -1076,7 +1076,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg"
+    "image": "/images/Men's-Hoodie.jpg"
   },
   {
     "id": 78,
@@ -1090,7 +1090,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg"
+    "image": "/images/Women’s-Sunglasses.jpg"
   },
   {
     "id": 79,
@@ -1104,7 +1104,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+    "image": "/images/Ceramic-Coffee-Mug.jpg"
   },
   {
     "id": 80,
@@ -1118,7 +1118,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+    "image": "/images/Bluetooth-Speaker.jpg"
   },
   {
     "id": 81,
@@ -1132,7 +1132,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    "image": "/images/Men's-Running-Shoes.jpg"
   },
   {
     "id": 82,
@@ -1146,7 +1146,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/2529149/pexels-photo-2529149.jpeg"
+    "image": "/images/Women’s-Casual-Sandals.jpg"
   },
   {
     "id": 83,
@@ -1160,7 +1160,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Mouse.jpg"
   },
   {
     "id": 84,
@@ -1174,7 +1174,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/280255/pexels-photo-280255.jpeg"
+    "image": "/images/DigitalAlarmClock.jpg"
   },
   {
     "id": 85,
@@ -1188,7 +1188,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg"
+    "image": "/images/Portable-Power-Bank.jpg"
   },
   {
     "id": 86,
@@ -1202,7 +1202,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/159144/pexels-photo-159144.jpeg"
+    "image": "/images/Gaming-Keyboard.jpg"
   },
   {
     "id": 87,
@@ -1216,7 +1216,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "/images/YogaMat.jpg"
   },
   {
     "id": 88,
@@ -1230,7 +1230,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/1691051/pexels-photo-1691051.jpeg"
+    "image": "/images/Women’s-Handbag.jpg"
   },
   {
     "id": 89,
@@ -1244,7 +1244,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/374024/pexels-photo-374024.jpeg"
+    "image": "/images/Ceramic-Coffee-Mug.jpg"
   },
   {
     "id": 90,
@@ -1258,7 +1258,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Electric-Kettle.jpg"
   },
   {
     "id": 91,
@@ -1272,7 +1272,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/373945/pexels-photo-373945.jpeg"
+    "image": "/images/Wireless-Earphones.jpg"
   },
   {
     "id": 92,
@@ -1286,7 +1286,7 @@
     ],
     "in_stock": true,
     "quantity": 300,
-    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+    "image": "/images/Men'sCasualT-Shirt.jpg"
   },
   {
     "id": 93,
@@ -1300,7 +1300,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/1591421/pexels-photo-1591421.jpeg"
+    "image": "/images/StainlessSteelCutlerySet.jpg"
   },
   {
     "id": 94,
@@ -1314,7 +1314,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/21014/pexels-photo.jpg"
+    "image": "/images/Smartphone-Tripod.jpg"
   },
   {
     "id": 95,
@@ -1328,7 +1328,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+    "image": "/images/Yoga-Block-Set.jpg"
   },
   {
     "id": 96,
@@ -1342,7 +1342,7 @@
     ],
     "in_stock": true,
     "quantity": 100,
-    "image": "https://images.pexels.com/photos/4051060/pexels-photo-4051060.jpeg"
+    "image": "/images/Digital-Kitchen-Scale.jpg"
   },
   {
     "id": 97,
@@ -1356,7 +1356,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "https://images.pexels.com/photos/374574/pexels-photo-374574.jpeg"
+    "image": "/images/TravelLuggageBag.jpg"
   },
   {
     "id": 98,
@@ -1370,7 +1370,7 @@
     ],
     "in_stock": true,
     "quantity": 150,
-    "image": "https://images.pexels.com/photos/4051061/pexels-photo-4051061.jpeg"
+    "image": "/images/Electric-Hair-Dryer.jpg"
   },
   {
     "id": 99,
@@ -1384,7 +1384,7 @@
     ],
     "in_stock": true,
     "quantity": 250,
-    "image": "https://images.pexels.com/photos/1002642/pexels-photo-1002642.jpeg"
+    "image": "/images/Women’s-CasualTop.jpg"
   },
   {
     "id": 100,
@@ -1398,7 +1398,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "https://images.pexels.com/photos/339465/pexels-photo-339465.jpeg"
+    "image": "/images/Bluetooth-Speaker.jpg"
   }
 ]
 
