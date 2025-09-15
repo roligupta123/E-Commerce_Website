@@ -1,14 +1,20 @@
 const express = require('express');
 const productRouter = require("./routes/products/products")
 const path = require("path")
+const cors = require("cors")
+const bcrypt = require("bcryptjs")
+const jwt = require("jsonwebtoken")
 
 const app = express();
+
+app.use(cors())
+app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use("/api/", productRouter)
 
-// catch 404 and forward to error handler
+// catch 404 and forward to error handlernpm 
 app.use(function(req, res, next) {
   next(createError(404));
 });
