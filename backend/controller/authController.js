@@ -1,10 +1,8 @@
-const User = require("../models/User"); // ✅ correct
-
-const bcrypt = require("bcrypt")
-
+const User = require("../models/User"); 
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken")
 
 async function registerUser(req, res) {
-
     const { username, email, password, confirm_password, role} = req.body;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -46,4 +44,38 @@ async function registerUser(req, res) {
     }
 }
 
-module.exports = { registerUser };
+async function loginUser(req, res){
+    const { email, password } = req.body;
+    try {
+        if (!email || !password) {
+            return res.status(400).json({message : "All fields are required"})
+        }
+
+        const user = await User.findOne({email : email})
+        if(!user){
+            return res.status(401).json({message : "Invalid email"})
+        }
+
+        const isMatch = await bcrypt.compare(password, user.password)
+        if (!isMatch) {
+            return res.status(401).json({ message: "Invalid password" });
+        }
+
+        const token = jwt.sign(
+            {
+                email: user.email,
+                role : user.role
+            },
+            process.env.JWT_SECRET, 
+            { expiresIn: "1h" } 
+        )
+
+        res.status(200).json({message: "Login successful",token});
+
+    } catch (error) {
+        console.error("Error in Login User:", error);
+        res.status(500).json({ message: "Server error" });
+    }
+} 
+
+module.exports = { registerUser, loginUser };
