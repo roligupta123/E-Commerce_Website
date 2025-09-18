@@ -68,7 +68,7 @@
     ],
     "in_stock": true,
     "quantity": 200,
-    "image": "public/images/Men's-Casual-Sneakers.jpg"
+    "image": "/images/Men's-Casual-Sneakers.jpg"
   },
   {
     "id": 6,
@@ -362,7 +362,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "/imagesBluetooth-Car-Speaker.jpg"
+    "image": "/images/Bluetooth-Car-Speaker.jpg"
   },
   {
     "id": 27,
@@ -418,7 +418,7 @@
     ],
     "in_stock": true,
     "quantity": 220,
-    "image": "images/Yoga-Block-Set.jpg"
+    "image": "/images/Yoga-Block-Set.jpg"
   },
   {
     "id": 31,
@@ -516,7 +516,7 @@
     ],
     "in_stock": true,
     "quantity": 180,
-    "image": "images/Women’s-Running-Shoes.jpg"
+    "image": "/images/Women’s-Running-Shoes.jpg"
   },
   {
     "id": 38,
@@ -964,7 +964,7 @@
     ],
     "in_stock": true,
     "quantity": 120,
-    "image": "/imagesBluetooth-Car-Speaker.jpg"
+    "image": "/images/Bluetooth-Car-Speaker.jpg"
   },
   {
     "id": 70,
