@@ -1,18 +1,28 @@
+require("dotenv").config();
 const express = require('express');
-const productRouter = require("./routes/products/products")
 const path = require("path")
 const cors = require("cors")
-const bcrypt = require("bcryptjs")
-const jwt = require("jsonwebtoken")
+const productRouter = require("./routes/products/products")
+const authRouter = require("./routes/authentication/userAuthentication")
+const { connection } = require("./config/connection");
+const cookieParser = require("cookie-parser");
+
 
 const app = express();
 
-app.use(cors())
+connection();
+
+app.use(cors());
+app.use(cookieParser())
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+
 app.use("/api/", productRouter)
+app.use("/user/", authRouter)
+
+
 
 // catch 404 and forward to error handlernpm 
 app.use(function(req, res, next) {
