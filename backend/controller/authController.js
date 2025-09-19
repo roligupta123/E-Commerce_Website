@@ -73,7 +73,7 @@ async function loginUser(req, res){
             { expiresIn: "1h" } 
         )
 
-        res.status(200).json({message: "Login successful",token});
+        return res.cookie("token", token).status(200).json({message: "Login successfully"});
 
     } catch (error) {
         console.error("Error in Login User:", error);
@@ -81,4 +81,15 @@ async function loginUser(req, res){
     }
 } 
 
-module.exports = { registerUser, loginUser };
+
+async function logout(req, res) {
+    const blacklist = [];
+
+    const token = req.cookies.token;
+    res.clearCookie("token")
+    blacklist.push(token);
+    return res.json({message : "User logout successfully..."})
+}
+
+
+module.exports = { registerUser, loginUser, logout };
