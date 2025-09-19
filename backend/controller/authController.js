@@ -2,9 +2,7 @@ const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken")
 
-
 async function registerUser(req, res) {
-
     const { username, email, password, confirm_password, role} = req.body;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -46,12 +44,11 @@ async function registerUser(req, res) {
     }
 }
 
-
 async function loginUser(req, res){
     const { email, password } = req.body;
     try {
         if (!email || !password) {
-            return res.status(400).json({message : "All field are required"})
+            return res.status(400).json({message : "All fields are required"})
         }
 
         const user = await User.findOne({email : email})
