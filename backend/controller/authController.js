@@ -70,7 +70,13 @@ async function loginUser(req, res){
             { expiresIn: "1h" } 
         )
 
-        return res.cookie("token", token).status(200).json({message: "Login successfully"});
+        return res.cookie("token", token, {
+            httpOnly: false,   // ❗ frontend JavaScript se read nahi hoga (secure)
+            secure: true,     // only HTTPS pe send hoga
+            sameSite: "strict"
+        }).status(200).json({message: "Login successfully", user:{
+            username : user.username
+        }});
 
     } catch (error) {
         console.error("Error in Login User:", error);
