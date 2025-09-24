@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-// import Navbar from "./pages/Navbar"
+// import Navbar from './components/Navbar'
+import Navbar from "./pages/Navbar"
 import SignIn from './components/signIn'
 import ProductsPage from './components/list'
 import SignUp from './components/signUp'
@@ -7,6 +7,7 @@ import Home from './components/home'
 import { Routes, Route } from "react-router-dom";
 import About from './pages/About'
 import Contact from './pages/Contact'
+import ProductDetails from "./components/product_details"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/list" element={<ProductsPage />} />
+        <Route path='/list/:id' element={<ProductDetails />} />
       </Routes>
     </div>
     
