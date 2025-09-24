@@ -21,8 +21,9 @@ async function registerUser(req, res) {
         }
 
         const existingUser = await User.findOne({  email : email });
+
         if (existingUser) {
-            return res.status(409).json({ message: "Email already registered" });
+            return res.status(409).json({ message: "Account already exist" });
         }
 
         const saltRounds = 10;
@@ -36,11 +37,11 @@ async function registerUser(req, res) {
         });
 
         const createdUser = await createUser.save();
-        return res.status(201).json({message : "User registered successfully"});
+        return res.status(201).json({message : "Account created successfully"});
 
     } catch (error) {
-        console.error("Error in registerUser:", error);
-        res.status(500).json({ message: "Server error" });
+        console.error("Error while creating an account : ", error.message);
+        res.status(500).json({ message: error.message });
     }
 }
 
@@ -52,8 +53,9 @@ async function loginUser(req, res){
         }
 
         const user = await User.findOne({email : email})
+
         if(!user){
-            return res.status(401).json({message : "Invalid email"})
+            return res.status(401).json({message : "Account doesn't exist"})
         }
 
         const isMatch = await bcrypt.compare(password, user.password)
@@ -71,23 +73,22 @@ async function loginUser(req, res){
         )
 
         return res.cookie("token", token, {
-            httpOnly: false,   // ❗ frontend JavaScript se read nahi hoga (secure)
-            secure: true,     // only HTTPS pe send hoga
+            httpOnly: false,   
+            secure: true,     
             sameSite: "strict"
         }).status(200).json({message: "Login successfully", user:{
             username : user.username
         }});
 
     } catch (error) {
-        console.error("Error in Login User:", error);
-        res.status(500).json({ message: "Server error" });
+        console.error("Error while login into your account : ", error.message);
+        res.status(500).json({ message: error.message });
     }
 } 
 
 
 async function logout(req, res) {
     const blacklist = [];
-
     const token = req.cookies.token;
     res.clearCookie("token")
     blacklist.push(token);
