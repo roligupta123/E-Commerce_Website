@@ -124,4 +124,4 @@ async function logout(req, res) {
 }
 
 
-module.exports = { registerUser, loginUser, refreshToken, logout, forgotPassword };
+module.exports = { registerUser, loginUser, refreshToken, logout };

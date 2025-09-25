@@ -1,14 +1,12 @@
 const Product = require("../models/product")
 
 // Get all data from DB
-
 async function getProducts(req, res) {
     const data = await Product.find();
     res.json(data)
 }
 
 //Get product by Id
-
 async function getProductById(req, res) {
     try {
         const productId = req.params.id;
@@ -24,5 +22,4 @@ async function getProductById(req, res) {
         res.status(500).json({ error: error.message });
     }
 }
-
 module.exports = { getProducts, getProductById }
