@@ -7,18 +7,12 @@ import { RiLuggageCartFill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import { Link } from 'react-router-dom'
+import Footer from '../pages/footer'
 
 const home = () => {
   return (
     <div>
       <Navbar />
-      {/* <Crousle />
-      <div className='flex items-center justify-between mt-7 p-4'>
-        <img src={Makup} alt="" className='w-[20%] h-[150px] rounded-full' />
-        <img src={Men} alt="" className='w-[20%] h-[150px] rounded-[100px]' />
-        <img src={Electronic} alt="" className='w-[20%] h-[150px] rounded-[100px]' />
-        <img src={Women} alt="" className='w-[20%] h-[150px] rounded-[100px]' />
-      </div> */}
       <div className="flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 gap-10">
       <div className="flex flex-col items-start text-center lg:text-left">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-pink-400 leading-tight">
@@ -81,6 +75,7 @@ const home = () => {
         </div>
       </div>
     </div>
+    <Footer />
     </div>
   )
 }

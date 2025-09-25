@@ -1,17 +1,16 @@
-import React from "react";
 import Navbar from "./Navbar";
-import Roli from '../assets/roli.png';
 import Makup from '../assets/makup.jpg';
 import Men from '../assets/men.jpg';
 import Electronic from '../assets/electronic.jpg';
 import Women from '../assets/women.jpg';
+import Footer from "./footer";
 
 export default function About() {
   return (
     <div className="bg-white">
       <Navbar />
       <div className="max-w-6xl mx-auto p-6 space-y-10">
-        {/* Header */}
+        
         <div className="text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-4 text-[#CB9C5E]">About Our E-Commerce Website</h1>
           <p className="text-[#CB9C5E] text-base md:text-lg">
@@ -21,7 +20,7 @@ export default function About() {
           </p>
         </div>
 
-        {/* Sections */}
+        
         <div className="space-y-10">
           {/* Men Fashion */}
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
@@ -33,7 +32,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* Makeup Collection */}
+      
           <div className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-8">
             <img src={Makup} alt="Makeup Collection" className="w-full md:w-2/5 h-auto rounded-lg object-cover"/>
             <p className="text-base md:text-lg md:w-3/5">
@@ -43,7 +42,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* Women Fashion */}
+          
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
             <img src={Women} alt="Women Fashion" className="w-full md:w-2/5 h-auto rounded-lg object-cover"/>
             <p className="text-base md:text-lg md:w-3/5">
@@ -53,9 +52,9 @@ export default function About() {
             </p>
           </div>
 
-          {/* Electronics Section */}
+          
           <div className="flex flex-col md:flex-row-reverse items-center gap-6 md:gap-8">
-            <img src={Electronic} alt="Electronics" className="w-full md:w-2/5 h-auto rounded-lg object-cover"/>
+            <img src={Electronic} alt="Electronics" className="w-full md:w-2/5 h-[280px] rounded-lg object-cover"/>
             <p className="text-base md:text-lg md:w-3/5">
               Our electronics category brings you the latest gadgets and devices at competitive prices. 
               From smartphones, headphones, and smart home devices to essential accessories, 
@@ -64,15 +63,15 @@ export default function About() {
           </div>
         </div>
 
-        {/* Meet Our Team */}
+        
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-center text-[#CB9C5E]">Meet Our Team</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
-              {name: "Roli Gupta", role: "Frontend Master", img: Roli},
-              {name: "Anchal Maurya", role: "Database Master", img: Roli},
-              {name: "Zainab Fatma", role: "Backend Master", img: Roli},
-              {name: "Aadil Shah", role: "Admin Handler", img: Roli}
+              {name: "Roli Gupta", role: "Frontend Master", img: Makup},
+              {name: "Anchal Maurya", role: "Database Master", img: Men},
+              {name: "Zainab Fatma", role: "Backend Master", img: Makup},
+              {name: "Aadil Shah", role: "Admin Handler", img: Men}
             ].map((member, index) => (
               <div key={index} className="p-4 bg-gray-100 shadow rounded-lg border-[2px] border-[#3a4664] text-center">
                 <img src={member.img} alt={member.name} className="w-20 h-20 mx-auto rounded-full mb-2 object-cover"/>
@@ -82,14 +81,8 @@ export default function About() {
             ))}
           </div>
         </div>
-
-        {/* Footer Message */}
-        <div className="w-full h-[90px] bg-gray-300 flex items-center justify-center">
-          <p className="text-center font-semibold md:text-3xl text-[#CB9C5E]">
-            Thanks for visiting our website! 🙏
-          </p>
-        </div>
       </div>
+      <Footer />
     </div>
   );
 }
