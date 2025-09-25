@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../pages/Navbar";
+import sign from '../assets/sign.webp'
+import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -12,6 +14,7 @@ const SignUp = () => {
     role: "",
   });
 
+  // input change
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -19,8 +22,14 @@ const SignUp = () => {
     });
   };
 
+  // form submit
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (formData.password !== formData.confirm_password) {
+      alert("Passwords do not match!");
+      return;
+    }
 
     try {
       const res = await fetch("http://localhost:3000/user/register", {
@@ -32,10 +41,10 @@ const SignUp = () => {
       const data = await res.json();
 
       if (res.ok) {
-        alert(data.message); 
-        navigate("/signin"); 
+        alert(data.message);
+        navigate("/signin");
       } else {
-        alert(data.message); 
+        alert(data.message);
       }
     } catch (error) {
       console.error("Error:", error);
@@ -46,98 +55,132 @@ const SignUp = () => {
   return (
     <>
       <Navbar />
-      <div className="flex items-center justify-center h-[580px]">
-        <div className="w-full max-w-md bg-white p-5 rounded-2xl shadow-[0_0_20px_rgba(0,0,0,0.4)] mt-8">
-          <h1 className="text-2xl font-bold text-center text-[#CB9C5E]">
-            🙎‍♂️ Sign Up
-          </h1>
-
-          <form className="space-y-4" onSubmit={handleSubmit}>
-            {/* Inputs same as before */}
-            <div>
-              <label className="text-gray-700 font-bold mb-1">Username</label>
-              <input
-                type="text"
-                name="username"
-                value={formData.username}
-                onChange={handleChange}
-                placeholder="Choose a username"
-                className="w-full px-4 py-2 border rounded-lg"
-              />
-            </div>
-            <div>
-              <label className="text-gray-700 font-bold mb-1">Email</label>
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Enter your email"
-                className="w-full px-4 py-2 border rounded-lg"
-              />
-            </div>
-            <div>
-              <label className="text-gray-700 font-bold mb-1">Password</label>
-              <input
-                type="password"
-                name="password"
-                value={formData.password}
-                onChange={handleChange}
-                placeholder="Create a password"
-                className="w-full px-4 py-2 border rounded-lg"
-              />
-            </div>
-            <div>
-              <label className="text-gray-700 font-bold mb-1">Confirm Password</label>
-              <input
-                type="password"
-                name="confirm_password"
-                value={formData.confirm_password}
-                onChange={handleChange}
-                placeholder="Confirm your password"
-                className="w-full px-4 py-2 border rounded-lg"
-              />
-            </div>
-
-            <label className="flex items-center gap-2 mb-2">
-              <input
-                type="radio"
-                name="role"
-                value="user"
-                checked={formData.role === "user"}
-                onChange={handleChange}
-                className="accent-blue-500"
-              />
-              User
-            </label>
-
-            <label className="flex items-center gap-2 mb-2">
-              <input
-                type="radio"
-                name="role"
-                value="admin"
-                checked={formData.role === "admin"}
-                onChange={handleChange}
-                className="accent-blue-500"
-              />
-              Admin
-            </label>
-
+      <div className="flex mt-5 items-center justify-center">
+        <div className="w-[950px] bg-white shadow-lg rounded-2xl flex overflow-hidden mt-6">
+          {/* Left Section */}
+          <div className="w-1/2 bg-teal-500 text-white flex flex-col justify-center items-center p-10">
+            <h2 className="text-3xl font-bold mb-4">Welcome Back!</h2>
+            <p className="mb-6 text-center">
+              To keep connected with us please login with your personal info
+            </p>
             <button
-              type="submit"
-              className="w-full bg-[#af7f40] hover:bg-[#e9a54d] text-white py-2 rounded-lg
-              cursor-pointer shadow-md hover:scale-102 transition text-xl"
+              onClick={() => navigate("/signin")}
+              className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-teal-500 transition"
             >
-              Sign Up
+              SIGN IN
             </button>
-          </form>
+            <div className="mt-6">
+              <img
+                src={sign}
+                alt="illustration"
+                className="w-[80%] h-[30%] mx-auto "
+              />
+            </div>
+          </div>
+          <div className="w-1/2 bg-white p-10 flex flex-col justify-center">
+            <h2 className="text-2xl font-bold text-teal-600 text-center mb-6">
+              Create Account
+            </h2>
 
-          <p className="text-md text-center text-gray-600 mt-4">
-            Already have an account?{" "}
-            <a href="/signin" className="text-[#e9a54d] hover:underline">
-              Sign In
-            </a>
-          </p>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="flex items-center border px-3 py-2 rounded-md">
+                <FaUser className="text-gray-400 mr-2" />
+                <input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  value={formData.username}
+                  onChange={handleChange}
+                  className="w-full outline-none"
+                  required
+                />
+              </div>
+
+              {/* Email */}
+              <div className="flex items-center border px-3 py-2 rounded-md">
+                <FaEnvelope className="text-gray-400 mr-2" />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="w-full outline-none"
+                  required
+                />
+              </div>
+
+              {/* Password */}
+              <div className="flex items-center border px-3 py-2 rounded-md">
+                <FaLock className="text-gray-400 mr-2" />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  className="w-full outline-none"
+                  required
+                />
+              </div>
+
+              {/* Confirm Password */}
+              <div className="flex items-center border px-3 py-2 rounded-md">
+                <FaLock className="text-gray-400 mr-2" />
+                <input
+                  type="password"
+                  name="confirm_password"
+                  placeholder="Confirm Password"
+                  value={formData.confirm_password}
+                  onChange={handleChange}
+                  className="w-full outline-none"
+                  required
+                />
+              </div>
+
+              {/* Role Selection */}
+              <div className="flex gap-6 mt-2">
+                <label className="flex items-center gap-2">
+                  <input
+                    type="radio"
+                    name="role"
+                    value="user"
+                    checked={formData.role === "user"}
+                    onChange={handleChange}
+                    className="accent-teal-500"
+                  />
+                  User
+                </label>
+
+                <label className="flex items-center gap-2">
+                  <input
+                    type="radio"
+                    name="role"
+                    value="admin"
+                    checked={formData.role === "admin"}
+                    onChange={handleChange}
+                    className="accent-teal-500"
+                  />
+                  Admin
+                </label>
+              </div>
+
+              {/* Submit */}
+              <button
+                type="submit"
+                className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-full font-medium transition"
+              >
+                SIGN UP
+              </button>
+            </form>
+
+            <p className="text-md text-center text-gray-600 mt-4">
+              Already have an account?{" "}
+              <a href="/signin" className="text-teal-500 hover:underline">
+                Sign In
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </>
