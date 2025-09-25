@@ -26,4 +26,3 @@ async function getProductById(req, res) {
 }
 
 module.exports = { getProducts, getProductById }
-

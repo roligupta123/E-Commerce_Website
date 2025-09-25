@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use("/api/", productRouter)
-app.use("/user/", authRouter)
+app.use("/auth/", authRouter)
 
 
 module.exports = app;
