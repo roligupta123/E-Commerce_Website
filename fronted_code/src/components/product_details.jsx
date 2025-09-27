@@ -74,11 +74,11 @@ export default function ProductDetails() {
                   <li key={index} className="p-3 rounded-lg bg-gray-200">
                     <p className="font-medium">{c.user}</p>
                     <p>{c.comment}</p>
-                    <p className="text-sm text-gray-800">{c.date}</p>
+                    <p className="text-sm text-gray-600">{c.date}</p>
                   </li>
                 ))
               ) : (
-                <p className="text-gray-800">No comments yet.</p>
+                <p className="text-gray-600">No comments yet.</p>
               )}
             </ul>
           </div>
