@@ -1,6 +1,6 @@
 const User = require("../models/User"); 
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken")
+const jwt = require("jsonwebtoken");
 
 async function registerUser(req, res) {
     const { username, email, password, confirm_password, role} = req.body;
@@ -53,7 +53,6 @@ async function loginUser(req, res){
         }
 
         const user = await User.findOne({email : email})
-
         if(!user){
             return res.status(401).json({message : "Account doesn't exist"})
         }
@@ -63,7 +62,13 @@ async function loginUser(req, res){
             return res.status(401).json({ message: "Invalid password" });
         }
 
-        const token = jwt.sign(
+        const refreshToken = jwt.sign(
+            { email: user.email, role: user.role },
+            process.env.JWT_REFRESH_SECRET, 
+            { expiresIn: "7d" } 
+        );
+
+        const accessToken = jwt.sign(
             {
                 email: user.email,
                 role : user.role
@@ -72,13 +77,16 @@ async function loginUser(req, res){
             { expiresIn: "1h" } 
         )
 
-        return res.cookie("token", token, {
-            httpOnly: false,   
+        return res.cookie("refreshToken", refreshToken, {
+            httpOnly: true,   
             secure: true,     
             sameSite: "strict"
-        }).status(200).json({message: "Login successfully", user:{
-            username : user.username
-        }});
+        }).status(200).json({
+            message: "Login successfully",
+            accessToken: accessToken,   
+            user: { username: user.username }
+        });
+
 
     } catch (error) {
         console.error("Error while login into your account : ", error.message);
@@ -86,14 +94,34 @@ async function loginUser(req, res){
     }
 } 
 
+async function refreshToken(req, res) {
+    try {
+        const token = req.cookies.refreshToken; 
+        if (!token) 
+            return res.status(401).json({ message: "Refresh token missing" });
+
+        jwt.verify(token, process.env.JWT_REFRESH_SECRET, (err, user) => {
+            if (err) 
+                return res.status(403).json({ message: "Invalid or expired refresh token" });
+
+            const newAccessToken = jwt.sign(
+                { email: user.email, role: user.role },
+                process.env.JWT_SECRET,
+                { expiresIn: "1h" }
+            );
+
+            return res.json({ accessToken: newAccessToken });
+        });
+    } catch (error) {
+        console.error("Error in refresh token:", error.message);
+        res.status(500).json({ message: error.message });
+    }
+}
 
 async function logout(req, res) {
-    const blacklist = [];
-    const token = req.cookies.token;
-    res.clearCookie("token")
-    blacklist.push(token);
-    return res.json({message : "User logout successfully..."})
+    res.clearCookie("refreshToken"); 
+    return res.json({ message: "User logged out successfully" });
 }
 
 
-module.exports = { registerUser, loginUser, logout };
+module.exports = { registerUser, loginUser, refreshToken, logout };

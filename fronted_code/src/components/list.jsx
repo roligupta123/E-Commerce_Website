@@ -6,11 +6,15 @@ export default function ProductsList() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data))
-      .catch((err) => console.error("Error:", err));
-  }, []);
+  fetch("http://localhost:3000/api/products")
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("Products Data:", data); 
+      setProducts(data);
+    })
+    .catch((err) => console.error("Error:", err));
+}, []);
+
 
   if (products.length === 0) {
     return <p className="p-4">Loading products...</p>;
@@ -21,9 +25,9 @@ export default function ProductsList() {
       <Navbar />
       <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="shadow-lg rounded-xl border-none  p-4">
+          <div key={product._id} className="shadow-lg rounded-xl border-none  p-4">
             <img
-              src={`http://localhost:3000${product.image}`}
+              src={`http://localhost:3000/${product.images}`}
               alt={product.title}
               className="w-full h-60 object-cover rounded-lg mb-4"
             />
@@ -31,7 +35,7 @@ export default function ProductsList() {
             <p>⭐ {product.rating} / 5</p>
 
             <Link
-              to={`/list/${product.id}`}
+              to={`/products/${product._id}`}
               className="block mt-3 text-center bg-[#af7f40] hover:bg-[#e9a54d] text-white py-2 rounded-lg cursor-pointer shadow-md transition"
             >
               View Details
