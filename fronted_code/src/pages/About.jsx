@@ -62,25 +62,6 @@ export default function About() {
             </p>
           </div>
         </div>
-
-        
-        <div className="space-y-6">
-          <h2 className="text-3xl font-bold text-center text-[#CB9C5E]">Meet Our Team</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {[
-              {name: "Roli Gupta", role: "Frontend Master", img: Makup},
-              {name: "Anchal Maurya", role: "Database Master", img: Men},
-              {name: "Zainab Fatma", role: "Backend Master", img: Makup},
-              {name: "Aadil Shah", role: "Admin Handler", img: Men}
-            ].map((member, index) => (
-              <div key={index} className="p-4 bg-gray-100 shadow rounded-lg border-[2px] border-[#3a4664] text-center">
-                <img src={member.img} alt={member.name} className="w-20 h-20 mx-auto rounded-full mb-2 object-cover"/>
-                <h3 className="text-lg font-semibold">{member.name}</h3>
-                <p className="text-gray-500">{member.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
       <Footer />
     </div>
