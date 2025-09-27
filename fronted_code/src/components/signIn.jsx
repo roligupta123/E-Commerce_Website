@@ -20,7 +20,7 @@ export default function Login() {
     console.log("Form Data:", formData);
 
     
-    if (formData.email === "" || formData.password === "") {
+    if (formData.email === "" || formData.password === ""){
       alert("Please fill all fields!");
     } else {
       alert(`Welcome ${formData.email}`);
