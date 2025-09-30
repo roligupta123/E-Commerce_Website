@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../pages/Navbar";
 import sign from '../assets/sign.webp'
+import Footer from '../pages/footer'
 import { FaUser, FaEnvelope, FaLock } from "react-icons/fa";
 
 const SignUp = () => {
@@ -32,7 +33,7 @@ const SignUp = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/user/register", {
+      const res = await fetch("http://localhost:3000/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -56,10 +57,10 @@ const SignUp = () => {
     <>
       <Navbar />
       <div className="flex mt-5 items-center justify-center">
-        <div className="w-[950px] bg-white shadow-lg rounded-2xl flex overflow-hidden mt-6">
+        <div className="w-[950px] h-[550px] bg-white shadow-[0_0_20px_rgba(0,0,0,0.4)] rounded-2xl flex overflow-hidden mt-6">
           {/* Left Section */}
           <div className="w-1/2 bg-teal-500 text-white flex flex-col justify-center items-center p-10">
-            <h2 className="text-3xl font-bold mb-4">Welcome Back!</h2>
+            <h2 className="text-3xl font-bold mt-25">Welcome Back!</h2>
             <p className="mb-6 text-center">
               To keep connected with us please login with your personal info
             </p>
@@ -73,17 +74,17 @@ const SignUp = () => {
               <img
                 src={sign}
                 alt="illustration"
-                className="w-[80%] h-[30%] mx-auto "
+                className="w-[300px] h-[80%] mx-auto rounded-lg"
               />
             </div>
           </div>
           <div className="w-1/2 bg-white p-10 flex flex-col justify-center">
-            <h2 className="text-2xl font-bold text-teal-600 text-center mb-6">
+            <h2 className="text-2xl font-bold text-teal-600 text-center mb-5">
               Create Account
             </h2>
 
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="flex items-center border px-3 py-2 rounded-md">
+            <form onSubmit={handleSubmit} className="space-y-7 mb-20">
+              <div className="flex items-center border px-3 py-2 rounded-md ">
                 <FaUser className="text-gray-400 mr-2" />
                 <input
                   type="text"
@@ -140,7 +141,7 @@ const SignUp = () => {
 
               {/* Role Selection */}
               <div className="flex gap-6 mt-2">
-                <label className="flex items-center gap-2">
+                <label className="flex items-center gap-2" >
                   <input
                     type="radio"
                     name="role"
@@ -174,15 +175,16 @@ const SignUp = () => {
               </button>
             </form>
 
-            <p className="text-md text-center text-gray-600 mt-4">
+            {/* <p className="text-md text-center text-gray-600">
               Already have an account?{" "}
               <a href="/signin" className="text-teal-500 hover:underline">
                 Sign In
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

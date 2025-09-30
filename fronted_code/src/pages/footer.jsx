@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaFacebookF, FaTwitter, FaLinkedin
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-gray-900 text-gray-300 mt-10">
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10">
         
         <div className="space-y-6">

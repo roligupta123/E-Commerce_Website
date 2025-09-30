@@ -22,4 +22,39 @@ async function getProductById(req, res) {
         res.status(500).json({ error: error.message });
     }
 }
-module.exports = { getProducts, getProductById }
+
+// Add product
+async function addProduct(req, res) {
+    try {
+        const { title, price, category, description, rating, comments, in_stock, quantity, images } = req.body;
+
+        if (!title || !price || !category || !description || !rating ||!comments || !in_stock || !quantity || !images ) {
+            return res.status(400).json({ message: "All required fields must be provided" });
+        }
+
+        const newProduct = new Product({
+            title,
+            price,
+            category,
+            description,
+            rating,
+            comments,
+            in_stock,
+            quantity,
+            images, 
+        });
+
+        const savedProduct = await newProduct.save();
+
+        return res.status(201).json({
+            message: "Product added successfully ✅",
+            product: savedProduct
+        });
+    } catch (error) {
+        console.log(error.message);
+        res.json({message : error.message})
+    }
+}
+
+
+module.exports = { getProducts, getProductById, addProduct }

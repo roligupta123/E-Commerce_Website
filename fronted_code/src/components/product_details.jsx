@@ -23,7 +23,7 @@ export default function ProductDetails() {
   return (
     <>
       <Navbar />
-      <div className="max-w-6xl mx-auto p-8 pt-[40px] mt-[30px] bg-white shadow-lg rounded-2xl flex flex-col md:flex-row gap-[5px]">
+      <div className="max-w-6xl mx-auto p-8 pt-[40px] mt-[30px] bg-white shadow-[0_0_20px_rgba(0,0,0,0.4)] rounded-2xl flex flex-col md:flex-row gap-[5px]">
         {/* Left: Image */}
         <div className="flex-1">
           <img
@@ -71,14 +71,14 @@ export default function ProductDetails() {
             <ul className="space-y-3 max-h-60 overflow-y-auto pr-2">
               {product.comments && product.comments.length > 0 ? (
                 product.comments.map((c, index) => (
-                  <li key={index} className="p-3 rounded-lg bg-gray-50">
+                  <li key={index} className="p-3 rounded-lg bg-gray-200">
                     <p className="font-medium">{c.user}</p>
                     <p>{c.comment}</p>
-                    <p className="text-sm text-gray-500">{c.date}</p>
+                    <p className="text-sm text-gray-600">{c.date}</p>
                   </li>
                 ))
               ) : (
-                <p className="text-gray-500">No comments yet.</p>
+                <p className="text-gray-600">No comments yet.</p>
               )}
             </ul>
           </div>
