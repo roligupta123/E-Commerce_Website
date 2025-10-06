@@ -4,6 +4,7 @@ const path = require("path")
 const cors = require("cors")
 const productRouter = require("./routes/products/products")
 const authRouter = require("./routes/authentication/userAuthentication")
+const cartRouter = require("./routes/cart/cart")
 const { connection } = require("./config/connection");
 const cookieParser = require("cookie-parser");
 
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use("/api/", productRouter)
 app.use("/auth/", authRouter)
+app.use("/user/", authRouter)
 
 
 module.exports = app;
