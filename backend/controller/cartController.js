@@ -43,3 +43,5 @@ async function addToCart(req, res) {
         res.status(500).json({ message: "Server error", message: error.message });
     }
 }
+
+module.exports = { addToCart }
