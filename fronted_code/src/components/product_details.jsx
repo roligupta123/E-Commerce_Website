@@ -2,10 +2,16 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../pages/Navbar";
 import { Link } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
+
+import { useCart } from "../context/CardContext.jsx";
 
 export default function ProductDetails() {
   const [product, setProduct] = useState(null);
   const { id } = useParams();
+  const { addToCart } = useCart();
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     if (id) {
@@ -56,9 +62,21 @@ export default function ProductDetails() {
 
             {/* Buttons */}
             <div className="flex space-x-4 mt-6">
-              <button className="bg-[#af7f40] hover:bg-[#e9a54d] text-white px-6 py-2 rounded-lg shadow-md transition">
+               <button
+                onClick={() => {
+                  addToCart({
+                    _id: product._id,
+                    title: product.title,
+                    price: product.price,
+                    images: product.images,
+                  });
+                  navigate("/card"); 
+                }}
+                className="bg-[#af7f40] text-white px-4 py-2 rounded hover:bg-[#e9a54d] transition"
+              >
                 Add to Cart
               </button>
+
               <button className="border border-[#af7f40] text-[#af7f40] hover:bg-[#af7f40] hover:text-white px-6 py-2 rounded-lg shadow-md transition">
                 <Link to='/list'>Buy Now</Link>
               </button>
@@ -74,7 +92,7 @@ export default function ProductDetails() {
                   <li key={index} className="p-3 rounded-lg bg-gray-200">
                     <p className="font-medium">{c.user}</p>
                     <p>{c.comment}</p>
-                    <p className="text-sm text-gray-600">{c.date}</p>
+                    <p className="text-sm text-gray-800">{c.date}</p>
                   </li>
                 ))
               ) : (
