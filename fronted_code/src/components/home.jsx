@@ -16,7 +16,7 @@ const home = () => {
       <div className="flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 gap-10">
       <div className="flex flex-col items-start text-center lg:text-left">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-pink-400 leading-tight">
-          e-commerce Website
+          E-commerce Website
         </h1>
         <span className="text-lg md:text-2xl text-[#CB9C5E] mt-2 tracking-[8px]">
           SUPPORT LOCAL EVERYTHING
