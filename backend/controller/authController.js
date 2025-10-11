@@ -13,7 +13,6 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-
 async function registerUser(req, res) {
     const { username, email, password, confirm_password, role} = req.body;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -96,7 +95,9 @@ async function loginUser(req, res){
         }).status(200).json({
             message: "Login successfully",
             accessToken: accessToken,   
-            user: { username: user.username }
+            user: { username: user.username },
+            email : user.email,
+            role : user.role
         });
 
 
