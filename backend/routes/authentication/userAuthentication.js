@@ -8,6 +8,6 @@ router.post("/login", loginUser)
 router.post("/logout", authMiddleware, logout)
 router.post("/refresh", refreshToken)
 router.post("/forgot", forgotPassword)
-router.post("/reset", resetPassword)
+router.post("/reset",authMiddleware, resetPassword)
 
 module.exports = router;
